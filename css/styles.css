@@ -5,54 +5,58 @@
 h1 {
   margin-bottom: 15px;
   text-align: center;
+  font-family: Helvetica;
 }
 
-#section {
+#section-text {
   border: 1px solid black;
   padding: 30px 20px 20px 20px;
   background-color: gray;
   width: 90%;
   height: 160px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 15px;
   font-family: Helvetica;
+  font-size: small;
   color: white;
 }
 
-#full-section {
+#section3-text {
   border: 1px solid black;
   padding: 30px 20px 20px 20px;
   background-color: gray;
   width: 90%;
   height: 160px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 15px;
   font-family: Helvetica;
+  font-size: small;
   color: white;
 }
 
-.pformat {
+.label-format {
   border: 1px solid black;
   position: relative;
-  margin-right: 5%;
   padding-top: 5px;
-  text-align: center;
-  width: 80px;
+  width: 100px;
   height: 30px;
+  margin-top: 15px;
+  margin-right: 5%;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: large;
   top: 0;
   left: 0;
   float: right;
 }
 
-#p1 {
+#section1-label {
   background-color: #FA52A2;
 }
 
-#p2 {
+#section2-label {
   background-color: #FDEB88;
 }
 
-#p3 {
+#section3-label {
   background-color: #5F9FEA;
 }
 
@@ -70,10 +74,10 @@ h1 {
   .col-lg-4 {
     width: 33.33%;
   }
-  #section {
+  #section-text {
     height: 180px;
   }
-  #full-section {
+  #section3-text {
     height: 180px;
   }
 }
@@ -87,20 +91,20 @@ h1 {
   .col-md-6 {
     width: 50%;
   }
-  .full-width {
+  .section3-format {
   	width: 100%;
   }
   /*p.custom-width {
   	width: 95%;
   }*/
-  .p3-format {
+  .label3-format {
     margin-right: 20px;
   }
-  #p3 {
+  #label3 {
     background-color: #5F9FEA;
     /*margin-right: 2.4%;*/
   }
-  #full-section {
+  #section3-text {
     width: auto;
     height: 110px;
     margin-right: 20px;
@@ -117,10 +121,10 @@ h1 {
   .col-sm-12 {
     width: 100%;
   }
-  #section {
+  #section-text {
     height: 140px;
   }
-  #full-section {
+  #section3-text {
     height: 140px;
   }
 }
