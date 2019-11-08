@@ -1,4 +1,126 @@
-p {
-   background-color: gray;
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
 }
 
+#section {
+  border: 1px solid black;
+  padding: 30px 20px 20px 20px;
+  background-color: gray;
+  width: 90%;
+  height: 160px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+}
+
+#full-section {
+  border: 1px solid black;
+  padding: 30px 20px 20px 20px;
+  background-color: gray;
+  width: 90%;
+  height: 160px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+}
+
+.pformat {
+  border: 1px solid black;
+  position: relative;
+  margin-right: 5%;
+  padding-top: 5px;
+  text-align: center;
+  width: 80px;
+  height: 30px;
+  top: 0;
+  left: 0;
+  float: right;
+}
+
+#p1 {
+  background-color: #FA52A2;
+}
+
+#p2 {
+  background-color: #FDEB88;
+}
+
+#p3 {
+  background-color: #5F9FEA;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Desktop version **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    border: 1px solid red;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  #section {
+    height: 180px;
+  }
+  #full-section {
+    height: 180px;
+  }
+}
+
+/********** Tablet version **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .full-width {
+  	width: 100%;
+  }
+  /*p.custom-width {
+  	width: 95%;
+  }*/
+  .p3-format {
+    margin-right: 20px;
+  }
+  #p3 {
+    background-color: #5F9FEA;
+    /*margin-right: 2.4%;*/
+  }
+  #full-section {
+    width: auto;
+    height: 110px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+/********** Mobile version **********/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    border: 1px solid blue;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+  #section {
+    height: 140px;
+  }
+  #full-section {
+    height: 140px;
+  }
+}
