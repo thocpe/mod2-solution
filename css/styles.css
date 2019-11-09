@@ -1,33 +1,20 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
+  font-family: Helvetica;
 }
+
 h1 {
   margin-bottom: 15px;
   text-align: center;
-  font-family: Helvetica;
 }
 
 #section-text {
   border: 1px solid black;
   padding: 30px 20px 20px 20px;
   background-color: gray;
-  width: 90%;
   height: 160px;
   margin: 15px;
-  font-family: Helvetica;
-  font-size: small;
-  color: white;
-}
-
-#section3-text {
-  border: 1px solid black;
-  padding: 30px 20px 20px 20px;
-  background-color: gray;
-  width: 90%;
-  height: 160px;
-  margin: 15px;
-  font-family: Helvetica;
   font-size: small;
   color: white;
 }
@@ -38,10 +25,8 @@ h1 {
   padding-top: 5px;
   width: 100px;
   height: 30px;
-  margin-top: 15px;
-  margin-right: 5%;
+  margin: 15px;
   text-align: center;
-  font-family: Helvetica;
   font-size: large;
   top: 0;
   left: 0;
@@ -69,7 +54,7 @@ h1 {
 @media (min-width: 992px) {
   .col-lg-4 {
     float: left;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   .col-lg-4 {
     width: 33.33%;
@@ -78,7 +63,13 @@ h1 {
     height: 180px;
   }
   #section3-text {
+    border: 1px solid black;
+    padding: 30px 20px 20px 20px;
+    background-color: gray;
     height: 180px;
+    margin: 15px;
+    font-size: small;
+    color: white;
   }
 }
 
@@ -86,7 +77,7 @@ h1 {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6 {
     float: left;
-    border: 1px solid green;
+    /* border: 1px solid green; */
   }
   .col-md-6 {
     width: 50%;
@@ -94,21 +85,17 @@ h1 {
   .section3-format {
   	width: 100%;
   }
-  /*p.custom-width {
-  	width: 95%;
-  }*/
-  .label3-format {
-    margin-right: 20px;
-  }
   #label3 {
     background-color: #5F9FEA;
-    /*margin-right: 2.4%;*/
   }
   #section3-text {
-    width: auto;
+    border: 1px solid black;
+    padding: 30px 20px 20px 20px;
+    background-color: gray;
     height: 110px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin: 15px;
+    font-size: small;
+    color: white;
   }
 }
 
@@ -116,7 +103,7 @@ h1 {
 @media (max-width: 767px) {
   .col-sm-12 {
     float: left;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
   }
   .col-sm-12 {
     width: 100%;
@@ -125,6 +112,12 @@ h1 {
     height: 140px;
   }
   #section3-text {
+    border: 1px solid black;
+    padding: 30px 20px 20px 20px;
+    background-color: gray;
     height: 140px;
+    margin: 15px;
+    font-size: small;
+    color: white;
   }
 }
